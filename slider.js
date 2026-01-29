@@ -9,6 +9,7 @@ const sliderImage = document.getElementById("sliderImage");
 let currentIndex = 0;
 function nextImage() {
   currentIndex++;
+  
 
   if (currentIndex >= images.length) {
     currentIndex = 0;
